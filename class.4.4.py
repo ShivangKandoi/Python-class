@@ -8,7 +8,9 @@ array_from_list = np.array([i for i in range(size)])
 print("Array from list:", array_from_list)
 
 # Create an array using the numpy linspace function
-linspace_array = np.linspace(0, 1, num=size)
+start = float(input("Enter the start of the range: "))
+end = float(input("Enter the end of the range: "))
+linspace_array = np.linspace(start, end, num=size)
 print("Linspace array:", linspace_array)
 
 # Create an array using the numpy arange function
