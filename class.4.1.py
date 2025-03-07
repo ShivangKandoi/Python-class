@@ -3,7 +3,7 @@
 def reverse_array(arr):
     return arr[::-1]
 
-# Example usage
+
 arr = []
 n = int(input("Enter the number of elements in the array: "))
 for i in range(n):
